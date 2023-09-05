@@ -1,0 +1,244 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.left {
+    position: fixed;
+    width: 20%;
+    height: 84%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 15px;
+    background-color: black;
+
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link>a {
+    padding: 5px 100px 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+
+
+
+
+}
+
+.nav-link>a>img {
+    padding-right: 10px;
+    width: 15px;
+}
+
+
+.nav-link>a:hover {
+    background: gray;
+}
+
+.nav-link>a:active {
+    background: gray;
+}
+
+/* ====================player Sections---======================================================= */
+#music-player {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    background-color: rgb(44, 41, 41);
+    color: white;
+    display: flex;
+
+
+}
+
+#myProgress {
+    width: 500px;
+    height: 5px;
+
+}
+
+.bbb {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    width: 250px;
+
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.player {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+}
+
+.volume-ctr {
+    display: flex;
+    gap: 5px;
+    padding: 0px 5px;
+    width: 250px;
+    align-items: center;
+}
+
+#volume {
+    height: 3px;
+
+}
+
+/* ================================================================================== */
+main {
+
+    
+    width: 75%;
+    background-color: rgb(100, 100, 100);
+    margin-bottom: 50px;
+    float: right;
+    padding: 20px;
+}
+
+/* .parent{
+    display: flex;
+    justify-content: space-between;
+} */
+.profile {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.name {
+    background-color: black;
+    font-size: small;
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.item {
+    width: 260px;
+    height: 80px;
+    border-radius: 4px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    justify-content: left;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.item-parent {
+    display: flex;
+   align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px ;
+}
+.play-card>img{
+width: 150px;
+height: 150px;
+}
+.play-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 150px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.card-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 20px;
+}
+.material-icons:hover{
+    
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* ==============================index1==================================== */
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.banner{
+    display: flex;
+    gap: 15px;
+    
+    
+
+}
+.banner>img{
+    width: 200px;
+    height: 200px;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+    margin: 30px 0px 0px 10px;
+}
+table{
+    width: 100%;
+    background-color: rgb(216, 204, 204);
+}
+th,th{
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    
+}
+
+
+tr:hover{
+    color: white;
+    cursor: pointer;
+    background-color: black;
+}
+.sticky{
+    
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-image: linear-gradient(180deg,rgb(71, 82, 54),gray,rgb(216, 204, 204));
+    margin: 0px;
+    padding: 10px;
+
+}

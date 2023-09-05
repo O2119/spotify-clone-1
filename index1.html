@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Spotify Clone</title>
+</head>
+
+<body>
+  <div id="music-player">
+    <div class="bbb">
+      <img src="./assets/Rectangle 20.png" width="60px" height="70px" alt="">
+      <div>
+        <div style="font-size: 25;">Hero no. 1</div>
+        <div style="font-size: x-small;">Netflix</div>
+      </div>
+      <div style="color: green; font-size: 30px;">&hearts;</div>
+    </div>
+    <div class="player">
+      <div>
+        <div class="controls">
+          <i class="material-icons" style="font-size:15px;color:rgb(255, 255, 255)">shuffle</i>
+          <i class="material-icons" style="font-size:20px;color:rgb(255, 255, 255)">fast_rewind</i>
+          <i class="material-icons" style="font-size:24px;color:rgb(255, 255, 255)"> play_circle_filled</i>
+          <i class="material-icons" style="font-size:20px;color:rgb(255, 255, 255)">fast_forward</i>
+          <i class="material-icons" style="font-size:15px;color:rgb(255, 255, 255)"> repeat</i>
+        </div>
+      </div>
+      <div>
+        <input type="range" id="myProgress" min="0" max="100">
+      </div>
+    </div>
+    <div>
+      <div class="volume-ctr">
+        <i class="material-icons" style="font-size:15px">mic</i>
+        <i class="material-icons" style="font-size:15px">queue_music</i>
+        <i class="material-icons" style="font-size:15px"> laptop</i>
+        <i class="material-icons" style="font-size:15px">volume_up</i>
+        <input type="range" id="volume" min="0" max="100">
+        <i class="material-icons" style="font-size:15px"> fullscreen</i>
+      </div>
+    </div>
+  </div>
+  <div class="parent">
+    <div class="left">
+      <div class="logo"><a href="#"><img src="./assets/Spotify logo (1).svg" alt="logo"></a>
+      </div>
+      <div class="nav-link">
+        <a href="#"><img src="./assets/fi-ss-home (1).svg" alt=""> Home</a>
+        <a href="#"><img src="./assets/fi-rs-search.svg" alt=""> Search</a>
+        <a href="#"><img src="./assets/library.svg" alt=""> Your Library</a>
+      </div>
+      <div class="nav-link">
+        <a href="#"><span
+            style="color: black; background-color: white; padding: 0px 5px; margin-right: 5px;">&#43;</span>Create
+          Plylist</a>
+        <a href="#"><img src="./assets/Group 2.svg" alt="">Liked Song</a>
+        <a href="#"><img src="./assets/gg_media-podcast.svg" alt="">Your Episodes</a>
+      </div>
+      <div class="nav-link">
+        <a href="#">FAV</a>
+        <a href="#">Daily Mix1</a>
+        <a href="#">Discover Weekly</a>
+        <a href="#">Malayalam</a>
+        <a href="#">Dance/Electronic Mix</a>
+        <a href="#">EDM/Popular</a>
+      </div>
+    </div>
+    <main>
+      <div class="sticky">
+        <div class="banner">
+          <img src="./assets/Group 2.svg" alt="">
+          <div class="banner-text">
+            <span style="font-size: small;">PLAYLIST</span>
+            <span style="font-size:90px; font-weight: bold;">Pop Right Now</span>
+            <span style="font-size: small;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
+              vitae?</span>
+            <span style="font-weight: bold;">Spotify</span>
+          </div>
+        </div>
+        <div class="icon">
+          <i class="material-icons" style="font-size:35px;color:rgb(255, 255, 255)"> play_circle_filled</i>
+          <div style="color: aliceblue; font-size: 30px;">&hearts;</div>
+          <i class="material-icons" style="font-size:35px;color:rgb(255, 255, 255)"> menu</i>
+
+        </div>
+      </div>
+      <div class="color">
+
+
+        <table>
+          <tr>
+            <th>TITLE</th>
+            <th>ALBUM</th>
+            <th>DATE ADDED</th>
+          </tr>
+          <tr>
+            <td>
+              <div class="bbb">
+                <img src="./assets/Rectangle 20.png" width="40px" height="40px" alt="">
+                <div>
+                  <div style="font-size: 25;">Hero no. 1</div>
+                  <div style="font-size: x-small;">Netflix</div>
+                </div>
+                <div style="color: rgb(247, 255, 247); font-size: 30px;">&hearts;</div>
+              </div>
+            </td>
+            <td>
+              Future Nostalgia (The Moonlight Edition)
+            </td>
+            <td>
+              20 may 2023
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="bbb">
+                <img src="./assets/Rectangle 20.png" width="40px" height="40px" alt="">
+                <div>
+                  <div style="font-size: 25;">Hero no. 1</div>
+                  <div style="font-size: x-small;">Netflix</div>
+                </div>
+                <div style="color: rgb(247, 255, 247); font-size: 30px;">&hearts;</div>
+              </div>
+            </td>
+            <td>
+              Future Nostalgia (The Moonlight Edition)
+            </td>
+            <td>
+              20 may 2023
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="bbb">
+                <img src="./assets/Rectangle 20.png" width="40px" height="40px" alt="">
+                <div>
+                  <div style="font-size: 25;">Hero no. 1</div>
+                  <div style="font-size: x-small;">Netflix</div>
+                </div>
+                <div style="color: rgb(247, 255, 247); font-size: 30px;">&hearts;</div>
+              </div>
+            </td>
+            <td>
+              Future Nostalgia (The Moonlight Edition)
+            </td>
+            <td>
+              20 may 2023
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="bbb">
+                <img src="./assets/Rectangle 20.png" width="40px" height="40px" alt="">
+                <div>
+                  <div style="font-size: 25;">Hero no. 1</div>
+                  <div style="font-size: x-small;">Netflix</div>
+                </div>
+                <div style="color: rgb(247, 255, 247); font-size: 30px;">&hearts;</div>
+              </div>
+            </td>
+            <td>
+              Future Nostalgia (The Moonlight Edition)
+            </td>
+            <td>
+              20 may 2023
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="bbb">
+                <img src="./assets/Rectangle 20.png" width="40px" height="40px" alt="">
+                <div>
+                  <div style="font-size: 25;">Hero no. 1</div>
+                  <div style="font-size: x-small;">Netflix</div>
+                </div>
+                <div style="color: rgb(247, 255, 247); font-size: 30px;">&hearts;</div>
+              </div>
+            </td>
+            <td>
+              Future Nostalgia (The Moonlight Edition)
+            </td>
+            <td>
+              20 may 2023
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="bbb">
+                <img src="./assets/Rectangle 20.png" width="40px" height="40px" alt="">
+                <div>
+                  <div style="font-size: 25;">Hero no. 1</div>
+                  <div style="font-size: x-small;">Netflix</div>
+                </div>
+                <div style="color: rgb(247, 255, 247); font-size: 30px;">&hearts;</div>
+              </div>
+            </td>
+            <td>
+              Future Nostalgia (The Moonlight Edition)
+            </td>
+            <td>
+              20 may 2023
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="bbb">
+                <img src="./assets/Rectangle 20.png" width="40px" height="40px" alt="">
+                <div>
+                  <div style="font-size: 25;">Hero no. 1</div>
+                  <div style="font-size: x-small;">Netflix</div>
+                </div>
+                <div style="color: rgb(247, 255, 247); font-size: 30px;">&hearts;</div>
+              </div>
+            </td>
+            <td>
+              Future Nostalgia (The Moonlight Edition)
+            </td>
+            <td>
+              20 may 2023
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="bbb">
+                <img src="./assets/Rectangle 20.png" width="40px" height="40px" alt="">
+                <div>
+                  <div style="font-size: 25;">Hero no. 1</div>
+                  <div style="font-size: x-small;">Netflix</div>
+                </div>
+                <div style="color: rgb(247, 255, 247); font-size: 30px;">&hearts;</div>
+              </div>
+            </td>
+            <td>
+              Future Nostalgia (The Moonlight Edition)
+            </td>
+            <td>
+              20 may 2023
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="bbb">
+                <img src="./assets/Rectangle 20.png" width="40px" height="40px" alt="">
+                <div>
+                  <div style="font-size: 25;">Hero no. 1</div>
+                  <div style="font-size: x-small;">Netflix</div>
+                </div>
+                <div style="color: rgb(247, 255, 247); font-size: 30px;">&hearts;</div>
+              </div>
+            </td>
+            <td>
+              Future Nostalgia (The Moonlight Edition)
+            </td>
+            <td>
+              20 may 2023
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="bbb">
+                <img src="./assets/Rectangle 20.png" width="40px" height="40px" alt="">
+                <div>
+                  <div style="font-size: 25;">Hero no. 1</div>
+                  <div style="font-size: x-small;">Netflix</div>
+                </div>
+                <div style="color: rgb(247, 255, 247); font-size: 30px;">&hearts;</div>
+              </div>
+            </td>
+            <td>
+              Future Nostalgia (The Moonlight Edition)
+            </td>
+            <td>
+              20 may 2023
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="bbb">
+                <img src="./assets/Rectangle 20.png" width="40px" height="40px" alt="">
+                <div>
+                  <div style="font-size: 25;">Hero no. 1</div>
+                  <div style="font-size: x-small;">Netflix</div>
+                </div>
+                <div style="color: rgb(247, 255, 247); font-size: 30px;">&hearts;</div>
+              </div>
+            </td>
+            <td>
+              Future Nostalgia (The Moonlight Edition)
+            </td>
+            <td>
+              20 may 2023
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="bbb">
+                <img src="./assets/Rectangle 20.png" width="40px" height="40px" alt="">
+                <div>
+                  <div style="font-size: 25;">Hero no. 1</div>
+                  <div style="font-size: x-small;">Netflix</div>
+                </div>
+                <div style="color: rgb(247, 255, 247); font-size: 30px;">&hearts;</div>
+              </div>
+            </td>
+            <td>
+              Future Nostalgia (The Moonlight Edition)
+            </td>
+            <td>
+              20 may 2023
+            </td>
+          </tr>
+        </table>
+      </div>
+    </main>
+
+  </div>
+
+
+</body>
+
+</html>
